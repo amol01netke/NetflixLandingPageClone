@@ -1,0 +1,224 @@
+@media screen and (max-width:500px){
+    /*body{
+        background-color: lightblue;
+    }*/
+
+    :root{
+        --primary-color:#e50914;
+    }
+    
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        background: #000;
+        color: #fff;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    h1,h2,h3,h4{
+        color: #fff;
+    }
+    
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+    
+    .hr-style{
+        margin-top: 10px;
+        background-color: #333;
+        height: 10px;
+        border: none;
+    }
+    
+    .showcase{
+        width:100%;
+        height: 30vh;
+        position:relative;
+        background-image: url('../assets/background.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .showcase::after{
+        z-index: 1;
+        width: 100%;
+        content: '';
+        height: 100%;
+        position: absolute;
+        top:0;
+        background-color: rgb(0, 0, 0,0.6);
+        box-shadow: inset 20px 0px 20px 0px #000000;
+    }
+    
+    .showcase-top{
+        position: relative;
+        height: 50px;
+        z-index: 2;
+    }
+    
+    .showcase-top img{
+        top: 30%;
+        height: 20px;
+        position:absolute;
+    }
+    
+    .showcase-top button{
+        background-color: #e50914;
+        color: #fff;
+        border:none;
+        position:absolute;
+        padding:8px 10px;
+        right: 3%;
+        top: 30%;
+        font-size: 0.8em;
+        border-radius: 5px;
+        cursor: pointer;
+    }   
+    
+    .showcase-content{
+        z-index: 2;
+        position: relative;
+        margin:auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .showcase-content h1{
+        font-size:20px;
+        margin-top: 2rem;
+    }
+    
+    .showcase-content .p1{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    .showcase-content .p2{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    
+    .input-email{
+        z-index: 2;
+        display: block;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    
+    .input-email input{
+        padding: 8px 5px; 
+        font-size: 0.7em;
+       border: none;
+       width: 90%;
+    }
+    
+    .input-email button{
+        width:fit-content;
+        background-color: #e50914;
+        color: #fff;
+        border: none;
+        padding: 10px 5px;
+        font-size: 0.6em;
+        margin-top: 5px;
+        
+    }
+    
+    .input-email button:hover{
+        width:15%;
+        background-color: #ee0c17;
+        color: #fff;
+        border: none;
+        padding: 15px 0px;
+        font-size: 1.5em;
+    }
+    
+    .container-1{
+        padding:30px 10px 30px 10px;
+        display: block;
+        grid-gap: 2em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .container-1-img img{
+        width: 200px;
+    }
+    
+    .container-heading{
+        font-size:20px;
+    }
+    
+    .container-content{
+        font-size: 15px;
+    }
+    
+    .container-faq{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    
+   
+    .container-faq-questions{
+        display: block;
+        text-align: left;
+    }
+    
+    .container-faq-questions div{
+        background-color: #333;
+        padding: 10px 5px;
+        font-size: 0.5em;
+        width: 60%;
+        position:relative ;
+        margin-left: 100px;
+    }
+    
+    .container-faq-questions i{
+        float: right;
+    }
+    
+    .container-faq-p2{
+        font-size: 10px;
+           margin-top: 10px;
+    }
+    
+    .main-footer{
+        color: #555;
+        padding:10px 10px 10px 50px;   
+        font-size: 10px; 
+    }
+    
+    .main-footer .netflixindia{
+        margin-top: 20px;
+        font-size: smaller;
+    }
+    
+    .footer-lists{
+        display: block;
+    }
+    
+    .footer-lists ul{
+        margin-top: 20px;
+    }
+    
+  .footer-lists li{
+        font-size: 10px;
+        padding: 2px 0px;
+    }
+}
